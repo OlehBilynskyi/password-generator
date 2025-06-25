@@ -34,11 +34,5 @@ public class PasswordGenerator {
         // Повертаємо згенерований пароль
         return password.toString();
     }
-
-    //Генеруємо та виводимо
-    public static void main(String[] args) {
-        int passwordLength = 12;
-        String generatedPassword = generatePassword(passwordLength);
-        System.out.println("Згенерований пароль: " + generatedPassword);
-    }
+    
 }
